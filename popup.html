@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PlayTime</title>
+    <h2 id="playTime">PlayTime</h2>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <audio id="alarm" src="media/520200__latranz__industrial-alarm.mp3" type="audio/mp3"></audio>
+    <form id="main">
+        <p>How long is the PlayTime?</p>
+        <input id="minute" type="text" size=2>
+        <p class="inline">Minute(s)</p><br>
+        <p id="error"></p>
+        <button id="buttonMain" type="button">Playtime</button><br>
+    </form>
+    <section id="timer">
+        <p id="countdown"></p>
+        <button id="buttonBack" type="button">End Playtime</button><br>
+    </section>
+    <section id="end">
+        <h1>Playtime Is Over!</h1>
+        <button id="buttonRestart" type="button">End Playtime</button>
+    </section>
+    <script src="js/playtime.js"></script>
+</body>
